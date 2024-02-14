@@ -1,0 +1,100 @@
+body {
+    /* background-color: #f2cab3; */
+    /* background-color: black; */
+    /* background-color: #bf4b75; */
+    background-color: #d98b8b;
+}
+
+
+h1 {
+    color: #644073;
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Care Dairy', sans-serif;
+    font-size: 1.5em;                                            
+}
+
+Header {
+    /* border: 1px solid red;    */
+    background-color: #f2cab3;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.middle {
+    margin-top: 2em;
+    border-radius: 10px;
+    background-color: #644073;
+}
+
+.content {
+    padding: 1em;
+}
+
+.content > h2 {
+    color: #f2cab3;
+    text-align: center;
+    margin-top: 1em;
+    font-family: 'Care Dairy', sans-serif;
+    font-size: 1.5em; 
+    padding-top: 1em;
+    letter-spacing: 5px;
+}
+.content > p {
+    background-color: #f2cab3;
+    border-radius: 10px;
+    padding: 1em;
+    color: #644073;
+    font-family:  'Care Dairy', sans-serif;
+}
+
+.cheers {
+    text-align: center;
+}
+
+.conclusion {
+    background-color: #f2cab3;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 10px;
+}
+
+.conclusion > p {
+    color: #644073;
+    text-align: center;
+    font-family: 'Care Dairy', sans-serif;
+    line-height: 2em;
+}
+
+footer {
+    background-color: black;
+    margin-top: 1em;
+    color: #644073;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+    font-family: 'Care Dairy', sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        width: 50%;
+        margin: auto;
+    }
+    .middle {
+        width: 50%;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+    .conclusion {
+        width: 50%;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+    footer {
+        width: 50%;
+        margin: auto;
+        margin-top: 1.5em;
+    }
+    
+}
